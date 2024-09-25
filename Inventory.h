@@ -1,34 +1,23 @@
 #pragma once
-#include "raylib.h"
 #include <iostream>
-using namespace std;
+#include "vector"
+#include "Item.h"
 
-	enum itemEffect
-	{
-		FIRE,
-		ICE,
-		WATER,
-		EARTH,
-		HEAL,
-		LIGHT,
-		VOID,
-		NONE,
-	};
+
+using namespace std;
 
 class Inventory
 {
-private:
+private :
+	int money = 0;
+
+
+public :
 	
-
-public:
-	string itemName = "Bob";
-	int maxItemStackable = 1;
-	int actualItemStackable = 1;
-	int itemWeight = 1;
-	int itemPrice = 1;
-	Texture2D itemSprite;
-
+	vector <Item*> actualInvotory;
 
 	Inventory();
+	void SellItemInInventory();
+
 };
 

@@ -6,8 +6,8 @@ class Weapon : public Equipement
 private:
 
 public:
-	int damage = 1;
-	int range = 1;
+	int itemDamage = 1;
+	int itemRange = 1;
 
 	Weapon();
 	~Weapon();

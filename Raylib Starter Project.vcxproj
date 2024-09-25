@@ -137,6 +137,7 @@
     <ClCompile Include="Consumable.cpp" />
     <ClCompile Include="Equipement.cpp" />
     <ClCompile Include="Inventory.cpp" />
+    <ClCompile Include="Item.cpp" />
     <ClCompile Include="Magic.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Weapon.cpp" />
@@ -146,6 +147,7 @@
     <ClInclude Include="Consumable.h" />
     <ClInclude Include="Equipement.h" />
     <ClInclude Include="Inventory.h" />
+    <ClInclude Include="Item.h" />
     <ClInclude Include="Magic.h" />
     <ClInclude Include="Weapon.h" />
   </ItemGroup>

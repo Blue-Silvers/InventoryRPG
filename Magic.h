@@ -1,7 +1,7 @@
 #pragma once
-#include "Inventory.h"
+#include "Item.h"
 
-class Magic : public Inventory
+class Magic : public Item
 {
 private:
 	int spellDuration = 1;

@@ -1,15 +1,18 @@
 #pragma once
-#include "Inventory.h"
+#include "Item.h"
 
-class Equipement : public Inventory
+class Equipement : public Item
 {
 private:
 
 public:
-	int durability = 1;
-	int maxDurability = 1;
+	int itemDurability = 1;
+	int itemMaxDurability = 1;
 
 	Equipement();
 	Equipement(string name, int stackable, int maxStackable, int weight, int price, itemEffect effect, int durability, int maxDurability);
+
+	virtual void Equip();
+	virtual void Unequip();
 };
 
