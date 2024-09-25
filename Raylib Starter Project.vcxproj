@@ -140,6 +140,8 @@
     <ClCompile Include="Item.cpp" />
     <ClCompile Include="Magic.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Physical.cpp" />
+    <ClCompile Include="Staff.cpp" />
     <ClCompile Include="Weapon.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -149,6 +151,8 @@
     <ClInclude Include="Inventory.h" />
     <ClInclude Include="Item.h" />
     <ClInclude Include="Magic.h" />
+    <ClInclude Include="Physical.h" />
+    <ClInclude Include="Staff.h" />
     <ClInclude Include="Weapon.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

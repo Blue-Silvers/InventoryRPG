@@ -5,7 +5,7 @@ Weapon::Weapon()
 
 }
 
-void Weapon::NewWeapon(std::string name, int stackable, int maxStackable, int weight, int price, itemEffect effect, int durability, int maxDurability, int damage, int range) 
+void Weapon::NewWeapon(std::string name, int stackable, int maxStackable, int weight, int price, itemEffect effect, int durability, int maxDurability, int damage, float attackSpeed) 
 {
 	itemName = name;
 	actualItemStackable = stackable;
@@ -16,5 +16,5 @@ void Weapon::NewWeapon(std::string name, int stackable, int maxStackable, int we
 	itemMaxDurability = maxDurability;
 	itemDurability = durability;
 	itemDamage = damage;
-	itemRange = range;
+	itemAttackSpeed = attackSpeed;
 }
