@@ -3,28 +3,31 @@
 #include <iostream>
 using namespace std;
 
+	enum itemEffect
+	{
+		FIRE,
+		ICE,
+		WATER,
+		EARTH,
+		HEAL,
+		LIGHT,
+		VOID,
+		NONE,
+	};
+
 class Inventory
 {
 private:
 	
 
 public:
-	string itemName;
-	int maxItemStackable;
-	int itemWeight;
-	int itemPrice;
+	string itemName = "Bob";
+	int maxItemStackable = 1;
+	int actualItemStackable = 1;
+	int itemWeight = 1;
+	int itemPrice = 1;
 	Texture2D itemSprite;
-	enum itemEffect
-	{
-		Fire,
-		Ice,
-		Water,
-		Earth,
-		Heal,
-		Light,
-		Void,
-		Latin,
-	};
+
 
 	Inventory();
 };

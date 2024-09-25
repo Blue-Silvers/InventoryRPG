@@ -6,8 +6,10 @@ class Equipement : public Inventory
 private:
 
 public:
-	int durability;
+	int durability = 1;
+	int maxDurability = 1;
 
 	Equipement();
+	Equipement(string name, int stackable, int maxStackable, int weight, int price, itemEffect effect, int durability, int maxDurability);
 };
 

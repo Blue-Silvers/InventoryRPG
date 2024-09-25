@@ -1,30 +1,34 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\enzo.lahana\\Downloads\\InvotoryRPG\\InvotoryRPG\\",
+  "WorkspaceRootPath": "C:\\Users\\enzo.lahana\\Documents\\GitHub\\InventoryRPG\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{792081F7-80EC-4AA8-8CF4-A08ED2FEAE12}|Raylib Starter Project.vcxproj|C:\\Users\\enzo.lahana\\Downloads\\InvotoryRPG\\InvotoryRPG\\Inventory.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{792081F7-80EC-4AA8-8CF4-A08ED2FEAE12}|Raylib Starter Project.vcxproj|C:\\Users\\enzo.lahana\\Documents\\GitHub\\InventoryRPG\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{792081F7-80EC-4AA8-8CF4-A08ED2FEAE12}|Raylib Starter Project.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{792081F7-80EC-4AA8-8CF4-A08ED2FEAE12}|Raylib Starter Project.vcxproj|C:\\Users\\enzo.lahana\\Documents\\GitHub\\InventoryRPG\\Inventory.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{792081F7-80EC-4AA8-8CF4-A08ED2FEAE12}|Raylib Starter Project.vcxproj|solutionrelative:Inventory.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{792081F7-80EC-4AA8-8CF4-A08ED2FEAE12}|Raylib Starter Project.vcxproj|C:\\Users\\enzo.lahana\\Downloads\\InvotoryRPG\\InvotoryRPG\\Weapon.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{792081F7-80EC-4AA8-8CF4-A08ED2FEAE12}|Raylib Starter Project.vcxproj|solutionrelative:Weapon.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{792081F7-80EC-4AA8-8CF4-A08ED2FEAE12}|Raylib Starter Project.vcxproj|C:\\Users\\enzo.lahana\\Downloads\\InvotoryRPG\\InvotoryRPG\\Magic.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{792081F7-80EC-4AA8-8CF4-A08ED2FEAE12}|Raylib Starter Project.vcxproj|solutionrelative:Magic.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{792081F7-80EC-4AA8-8CF4-A08ED2FEAE12}|Raylib Starter Project.vcxproj|C:\\Users\\enzo.lahana\\Downloads\\InvotoryRPG\\InvotoryRPG\\Equipement.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{792081F7-80EC-4AA8-8CF4-A08ED2FEAE12}|Raylib Starter Project.vcxproj|C:\\Users\\enzo.lahana\\Documents\\GitHub\\InventoryRPG\\Equipement.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{792081F7-80EC-4AA8-8CF4-A08ED2FEAE12}|Raylib Starter Project.vcxproj|solutionrelative:Equipement.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{792081F7-80EC-4AA8-8CF4-A08ED2FEAE12}|Raylib Starter Project.vcxproj|C:\\Users\\enzo.lahana\\Downloads\\InvotoryRPG\\InvotoryRPG\\Consumable.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{792081F7-80EC-4AA8-8CF4-A08ED2FEAE12}|Raylib Starter Project.vcxproj|C:\\Users\\enzo.lahana\\Documents\\GitHub\\InventoryRPG\\Consumable.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{792081F7-80EC-4AA8-8CF4-A08ED2FEAE12}|Raylib Starter Project.vcxproj|solutionrelative:Consumable.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{792081F7-80EC-4AA8-8CF4-A08ED2FEAE12}|Raylib Starter Project.vcxproj|C:\\Users\\enzo.lahana\\Downloads\\InvotoryRPG\\InvotoryRPG\\Armor.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{792081F7-80EC-4AA8-8CF4-A08ED2FEAE12}|Raylib Starter Project.vcxproj|C:\\Users\\enzo.lahana\\Documents\\GitHub\\InventoryRPG\\Armor.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{792081F7-80EC-4AA8-8CF4-A08ED2FEAE12}|Raylib Starter Project.vcxproj|solutionrelative:Armor.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{792081F7-80EC-4AA8-8CF4-A08ED2FEAE12}|Raylib Starter Project.vcxproj|C:\\Users\\enzo.lahana\\Documents\\GitHub\\InventoryRPG\\Weapon.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{792081F7-80EC-4AA8-8CF4-A08ED2FEAE12}|Raylib Starter Project.vcxproj|solutionrelative:Weapon.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{792081F7-80EC-4AA8-8CF4-A08ED2FEAE12}|Raylib Starter Project.vcxproj|C:\\Users\\enzo.lahana\\Documents\\GitHub\\InventoryRPG\\Magic.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{792081F7-80EC-4AA8-8CF4-A08ED2FEAE12}|Raylib Starter Project.vcxproj|solutionrelative:Magic.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,13 +42,52 @@
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Magic.h",
+              "DocumentMoniker": "C:\\Users\\enzo.lahana\\Documents\\GitHub\\InventoryRPG\\Magic.h",
+              "RelativeDocumentMoniker": "Magic.h",
+              "ToolTip": "C:\\Users\\enzo.lahana\\Documents\\GitHub\\InventoryRPG\\Magic.h",
+              "RelativeToolTip": "Magic.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-09-25T09:40:48.245Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "Weapon.h",
+              "DocumentMoniker": "C:\\Users\\enzo.lahana\\Documents\\GitHub\\InventoryRPG\\Weapon.h",
+              "RelativeDocumentMoniker": "Weapon.h",
+              "ToolTip": "C:\\Users\\enzo.lahana\\Documents\\GitHub\\InventoryRPG\\Weapon.h",
+              "RelativeToolTip": "Weapon.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-09-25T09:41:17.201Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Equipement.h",
+              "DocumentMoniker": "C:\\Users\\enzo.lahana\\Documents\\GitHub\\InventoryRPG\\Equipement.h",
+              "RelativeDocumentMoniker": "Equipement.h",
+              "ToolTip": "C:\\Users\\enzo.lahana\\Documents\\GitHub\\InventoryRPG\\Equipement.h",
+              "RelativeToolTip": "Equipement.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-09-25T09:41:02.191Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Armor.h",
-              "DocumentMoniker": "C:\\Users\\enzo.lahana\\Downloads\\InvotoryRPG\\InvotoryRPG\\Armor.h",
+              "DocumentMoniker": "C:\\Users\\enzo.lahana\\Documents\\GitHub\\InventoryRPG\\Armor.h",
               "RelativeDocumentMoniker": "Armor.h",
-              "ToolTip": "C:\\Users\\enzo.lahana\\Downloads\\InvotoryRPG\\InvotoryRPG\\Armor.h",
+              "ToolTip": "C:\\Users\\enzo.lahana\\Documents\\GitHub\\InventoryRPG\\Armor.h",
               "RelativeToolTip": "Armor.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAIAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-09-25T09:41:26.172Z",
               "EditorCaption": ""
@@ -52,64 +95,38 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Equipement.h",
-              "DocumentMoniker": "C:\\Users\\enzo.lahana\\Downloads\\InvotoryRPG\\InvotoryRPG\\Equipement.h",
-              "RelativeDocumentMoniker": "Equipement.h",
-              "ToolTip": "C:\\Users\\enzo.lahana\\Downloads\\InvotoryRPG\\InvotoryRPG\\Equipement.h",
-              "RelativeToolTip": "Equipement.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAALAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-09-25T09:41:02.191Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Magic.h",
-              "DocumentMoniker": "C:\\Users\\enzo.lahana\\Downloads\\InvotoryRPG\\InvotoryRPG\\Magic.h",
-              "RelativeDocumentMoniker": "Magic.h",
-              "ToolTip": "C:\\Users\\enzo.lahana\\Downloads\\InvotoryRPG\\InvotoryRPG\\Magic.h",
-              "RelativeToolTip": "Magic.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-09-25T09:40:48.245Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "Consumable.h",
-              "DocumentMoniker": "C:\\Users\\enzo.lahana\\Downloads\\InvotoryRPG\\InvotoryRPG\\Consumable.h",
+              "DocumentMoniker": "C:\\Users\\enzo.lahana\\Documents\\GitHub\\InventoryRPG\\Consumable.h",
               "RelativeDocumentMoniker": "Consumable.h",
-              "ToolTip": "C:\\Users\\enzo.lahana\\Downloads\\InvotoryRPG\\InvotoryRPG\\Consumable.h",
+              "ToolTip": "C:\\Users\\enzo.lahana\\Documents\\GitHub\\InventoryRPG\\Consumable.h",
               "RelativeToolTip": "Consumable.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-09-25T09:40:32.603Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Weapon.h",
-              "DocumentMoniker": "C:\\Users\\enzo.lahana\\Downloads\\InvotoryRPG\\InvotoryRPG\\Weapon.h",
-              "RelativeDocumentMoniker": "Weapon.h",
-              "ToolTip": "C:\\Users\\enzo.lahana\\Downloads\\InvotoryRPG\\InvotoryRPG\\Weapon.h",
-              "RelativeToolTip": "Weapon.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-09-25T09:41:17.201Z",
+              "DocumentIndex": 0,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\enzo.lahana\\Documents\\GitHub\\InventoryRPG\\main.cpp",
+              "RelativeDocumentMoniker": "main.cpp",
+              "ToolTip": "C:\\Users\\enzo.lahana\\Documents\\GitHub\\InventoryRPG\\main.cpp",
+              "RelativeToolTip": "main.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-09-25T11:28:05.04Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Inventory.h",
-              "DocumentMoniker": "C:\\Users\\enzo.lahana\\Downloads\\InvotoryRPG\\InvotoryRPG\\Inventory.h",
+              "DocumentMoniker": "C:\\Users\\enzo.lahana\\Documents\\GitHub\\InventoryRPG\\Inventory.h",
               "RelativeDocumentMoniker": "Inventory.h",
-              "ToolTip": "C:\\Users\\enzo.lahana\\Downloads\\InvotoryRPG\\InvotoryRPG\\Inventory.h",
+              "ToolTip": "C:\\Users\\enzo.lahana\\Documents\\GitHub\\InventoryRPG\\Inventory.h",
               "RelativeToolTip": "Inventory.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAIAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-09-25T09:40:14.258Z",
               "EditorCaption": ""

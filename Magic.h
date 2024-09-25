@@ -4,11 +4,12 @@
 class Magic : public Inventory
 {
 private:
-	int spellDuration;
+	int spellDuration = 1;
 
 public:
-	int spellLevel;
+	int spellLevel = 1;
 
 	Magic();
+	Magic(string name, int stackable, int maxStackable, int weight, int price, itemEffect effect, int level, int duration);
 };
 
