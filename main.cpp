@@ -13,7 +13,7 @@ void End();
 
 Font ft;
 Inventory myInvotory = Inventory();
-Weapon littleSword;
+Weapon* littleSword =new Weapon("Short Sword", 1, 1, 5, 10, itemEffect::NONE, 10, 20, 3, 1);
 Item* testItem = new Item("Item test", 1, 1, 5, 10, itemEffect::NONE);
 
 int main()
@@ -40,7 +40,7 @@ void Start()
     InitWindow(1200, 800, "Inventory RPG");
     SetTargetFPS(60);
     ft = LoadFont("resources/fonts/jupiter_crash.png");
-    littleSword.NewWeapon("Short Sword", 1, 1, 5, 10, itemEffect::NONE, 10, 20, 3, 1);
+    //littleSword.NewWeapon("Short Sword", 1, 1, 5, 10, itemEffect::NONE, 10, 20, 3, 1);
     for (int x = 0; x < 24; x++)
     {
         for (int y = 0; y < 16; y++)
@@ -49,8 +49,8 @@ void Start()
         }
     }
     myInvotory.Start(1, 1);
-    /*Item* test = &testItem;*/
-    myInvotory.actualInvotory[0][0] = testItem;
+    littleSword->Start();
+    myInvotory.actualInvotory[0][0] = littleSword;
 }
 
 

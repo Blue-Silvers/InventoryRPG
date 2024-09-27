@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\enzo.lahana\\Downloads\\InvotoryRPG\\InvotoryRPG\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{792081F7-80EC-4AA8-8CF4-A08ED2FEAE12}|Raylib Starter Project.vcxproj|C:\\Users\\enzo.lahana\\Downloads\\InvotoryRPG\\InvotoryRPG\\Inventory.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{792081F7-80EC-4AA8-8CF4-A08ED2FEAE12}|Raylib Starter Project.vcxproj|solutionrelative:Inventory.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{792081F7-80EC-4AA8-8CF4-A08ED2FEAE12}|Raylib Starter Project.vcxproj|C:\\Users\\enzo.lahana\\Downloads\\InvotoryRPG\\InvotoryRPG\\Weapon.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{792081F7-80EC-4AA8-8CF4-A08ED2FEAE12}|Raylib Starter Project.vcxproj|solutionrelative:Weapon.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{792081F7-80EC-4AA8-8CF4-A08ED2FEAE12}|Raylib Starter Project.vcxproj|C:\\Users\\enzo.lahana\\Downloads\\InvotoryRPG\\InvotoryRPG\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{792081F7-80EC-4AA8-8CF4-A08ED2FEAE12}|Raylib Starter Project.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{792081F7-80EC-4AA8-8CF4-A08ED2FEAE12}|Raylib Starter Project.vcxproj|C:\\Users\\enzo.lahana\\Downloads\\InvotoryRPG\\InvotoryRPG\\Weapon.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{792081F7-80EC-4AA8-8CF4-A08ED2FEAE12}|Raylib Starter Project.vcxproj|solutionrelative:Weapon.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{792081F7-80EC-4AA8-8CF4-A08ED2FEAE12}|Raylib Starter Project.vcxproj|C:\\Users\\enzo.lahana\\Downloads\\InvotoryRPG\\InvotoryRPG\\Inventory.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{792081F7-80EC-4AA8-8CF4-A08ED2FEAE12}|Raylib Starter Project.vcxproj|solutionrelative:Inventory.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{792081F7-80EC-4AA8-8CF4-A08ED2FEAE12}|Raylib Starter Project.vcxproj|C:\\Users\\enzo.lahana\\Downloads\\InvotoryRPG\\InvotoryRPG\\Item.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -21,14 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{792081F7-80EC-4AA8-8CF4-A08ED2FEAE12}|Raylib Starter Project.vcxproj|C:\\Users\\enzo.lahana\\Downloads\\InvotoryRPG\\InvotoryRPG\\Inventory.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{792081F7-80EC-4AA8-8CF4-A08ED2FEAE12}|Raylib Starter Project.vcxproj|solutionrelative:Inventory.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{792081F7-80EC-4AA8-8CF4-A08ED2FEAE12}|Raylib Starter Project.vcxproj|C:\\Users\\enzo.lahana\\Downloads\\InvotoryRPG\\InvotoryRPG\\Weapon.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{792081F7-80EC-4AA8-8CF4-A08ED2FEAE12}|Raylib Starter Project.vcxproj|solutionrelative:Weapon.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{792081F7-80EC-4AA8-8CF4-A08ED2FEAE12}|Raylib Starter Project.vcxproj|C:\\Users\\enzo.lahana\\Downloads\\InvotoryRPG\\InvotoryRPG\\Weapon.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{792081F7-80EC-4AA8-8CF4-A08ED2FEAE12}|Raylib Starter Project.vcxproj|solutionrelative:Weapon.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{792081F7-80EC-4AA8-8CF4-A08ED2FEAE12}|Raylib Starter Project.vcxproj|C:\\Users\\enzo.lahana\\Downloads\\InvotoryRPG\\InvotoryRPG\\Magic.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -86,17 +86,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "Weapon.cpp",
               "DocumentMoniker": "C:\\Users\\enzo.lahana\\Downloads\\InvotoryRPG\\InvotoryRPG\\Weapon.cpp",
               "RelativeDocumentMoniker": "Weapon.cpp",
               "ToolTip": "C:\\Users\\enzo.lahana\\Downloads\\InvotoryRPG\\InvotoryRPG\\Weapon.cpp",
               "RelativeToolTip": "Weapon.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-09-25T12:21:57.757Z",
               "EditorCaption": ""
@@ -109,14 +109,14 @@
               "RelativeDocumentMoniker": "main.cpp",
               "ToolTip": "C:\\Users\\enzo.lahana\\Downloads\\InvotoryRPG\\InvotoryRPG\\main.cpp",
               "RelativeToolTip": "main.cpp",
-              "ViewState": "AQIAABYAAAAAAAAAAADgvzQAAAAuAAAA",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAADMAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-09-25T11:28:05.04Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Inventory.cpp",
               "DocumentMoniker": "C:\\Users\\enzo.lahana\\Downloads\\InvotoryRPG\\InvotoryRPG\\Inventory.cpp",
               "RelativeDocumentMoniker": "Inventory.cpp",
@@ -129,7 +129,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Inventory.h",
               "DocumentMoniker": "C:\\Users\\enzo.lahana\\Downloads\\InvotoryRPG\\InvotoryRPG\\Inventory.h",
               "RelativeDocumentMoniker": "Inventory.h",
@@ -137,12 +137,11 @@
               "RelativeToolTip": "Inventory.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-09-25T13:26:05.429Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-25T13:26:05.429Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Item.cpp",
               "DocumentMoniker": "C:\\Users\\enzo.lahana\\Downloads\\InvotoryRPG\\InvotoryRPG\\Item.cpp",
               "RelativeDocumentMoniker": "Item.cpp",
@@ -150,12 +149,11 @@
               "RelativeToolTip": "Item.cpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-09-27T07:05:24.243Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-27T07:05:24.243Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Item.h",
               "DocumentMoniker": "C:\\Users\\enzo.lahana\\Downloads\\InvotoryRPG\\InvotoryRPG\\Item.h",
               "RelativeDocumentMoniker": "Item.h",
@@ -163,8 +161,7 @@
               "RelativeToolTip": "Item.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-09-25T09:40:14.258Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-25T09:40:14.258Z"
             },
             {
               "$type": "Document",
@@ -176,8 +173,7 @@
               "RelativeToolTip": "Consumable.cpp",
               "ViewState": "AQIAAAIAAAAAAAAAAADwvwkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-09-25T12:46:39.056Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-25T12:46:39.056Z"
             },
             {
               "$type": "Document",
@@ -189,8 +185,7 @@
               "RelativeToolTip": "Magic.cpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-09-25T12:42:25.629Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-25T12:42:25.629Z"
             },
             {
               "$type": "Document",
@@ -202,8 +197,7 @@
               "RelativeToolTip": "Equipement.cpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-09-25T12:44:58.453Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-25T12:44:58.453Z"
             },
             {
               "$type": "Document",
@@ -215,8 +209,7 @@
               "RelativeToolTip": "Armor.cpp",
               "ViewState": "AQIAAAgAAAAAAAAAAADwvw0AAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-09-27T07:06:43.588Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-27T07:06:43.588Z"
             },
             {
               "$type": "Document",
@@ -228,18 +221,17 @@
               "RelativeToolTip": "Armor.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-09-25T09:41:26.172Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-25T09:41:26.172Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "Weapon.h",
               "DocumentMoniker": "C:\\Users\\enzo.lahana\\Downloads\\InvotoryRPG\\InvotoryRPG\\Weapon.h",
               "RelativeDocumentMoniker": "Weapon.h",
               "ToolTip": "C:\\Users\\enzo.lahana\\Downloads\\InvotoryRPG\\InvotoryRPG\\Weapon.h",
               "RelativeToolTip": "Weapon.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAADAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-09-25T09:41:17.201Z",
               "EditorCaption": ""
@@ -254,8 +246,7 @@
               "RelativeToolTip": "Consumable.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAALAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-09-25T09:40:32.603Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-25T09:40:32.603Z"
             },
             {
               "$type": "Document",
@@ -267,8 +258,7 @@
               "RelativeToolTip": "Physical.cpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-09-25T15:30:34.446Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-25T15:30:34.446Z"
             },
             {
               "$type": "Document",
@@ -280,8 +270,7 @@
               "RelativeToolTip": "Staff.cpp",
               "ViewState": "AQIAAAcAAAAAAAAAAADwvw0AAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-09-25T15:30:33.829Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-25T15:30:33.829Z"
             },
             {
               "$type": "Document",
@@ -293,8 +282,7 @@
               "RelativeToolTip": "Equipement.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-09-25T09:41:02.191Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-25T09:41:02.191Z"
             },
             {
               "$type": "Document",
@@ -306,8 +294,7 @@
               "RelativeToolTip": "Magic.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-09-25T09:40:48.245Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-25T09:40:48.245Z"
             },
             {
               "$type": "Document",
@@ -319,8 +306,7 @@
               "RelativeToolTip": "Staff.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-09-25T15:24:10.717Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-25T15:24:10.717Z"
             },
             {
               "$type": "Document",
@@ -332,8 +318,7 @@
               "RelativeToolTip": "Physical.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-09-25T15:23:40.055Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-25T15:23:40.055Z"
             }
           ]
         }
