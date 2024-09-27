@@ -28,7 +28,7 @@ void Staff::Draw(Font ft)
 	DrawTextEx(ft, TextFormat("Effect : ", itemEffectName), Vector2{ 975, 105 }, 20, 5, WHITE);
 	DrawTextEx(ft, TextFormat("Durability : %01i / %01i", itemDurability, itemMaxDurability), Vector2{ 975, 130 }, 20, 5, WHITE);
 	DrawTextEx(ft, TextFormat("Damage : %01i", itemDamage), Vector2{ 975, 155 }, 20, 5, WHITE);
-	DrawTextEx(ft, TextFormat("SpeedAttack : %01f", itemAttackSpeed), Vector2{ 975, 180 }, 20, 5, WHITE);
+	DrawTextEx(ft, TextFormat("SpeedAttack : %01.02f", itemAttackSpeed), Vector2{ 975, 180 }, 20, 5, WHITE);
 	DrawTextEx(ft, TextFormat("Mana : %01i", itemMaxMana), Vector2{ 975, 205 }, 20, 5, WHITE);
 	//DrawTextEx(ft, TextFormat("Bricks : %02i", nbBrick), Vector2{ 5, 5 }, 50, 5, WHITE);
 }

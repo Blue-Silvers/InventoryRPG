@@ -9,12 +9,18 @@ void Inventory::Start(int x, int y)
 	backGround = LoadTexture("Icone/BG_Description.png");
 }
 
-void Inventory::Update(int x, int y)
+void Inventory::Update(int x, int y, Font ft)
 {
+
 	Rectangle rec{ (int)(50 * x), (int)(50 * y), 50, 50 };
 	if (CheckCollisionPointRec(GetMousePosition(), rec))
 	{
 		showInfo = true;
+		if (actualInvotory[y][x] != nullptr)
+	{
+			
+		actualInvotory[y][x]->Draw(ft);
+	}
 		if (IsMouseButtonPressed(MOUSE_BUTTON_LEFT))
 		{
 			//effect
@@ -43,11 +49,8 @@ void Inventory::Draw(int x, int y, Font ft)
 	if (actualInvotory[y][x] != nullptr) 
 	{
 		DrawTexturePro(actualInvotory[y][x]->itemSprite, Rectangle{0, 0, 128, 128}, rec, origin, 0.0f, WHITE);
-	}
-
-
-	if (showInfo == true) 
-	{
 		//actualInvotory[y][x]->Draw(ft);
 	}
+
+
 }

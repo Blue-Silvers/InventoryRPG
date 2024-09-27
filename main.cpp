@@ -50,13 +50,22 @@ void Start()
     }
     myInvotory.Start(1, 1);
     littleSword->Start();
+    testItem->Start();
     myInvotory.actualInvotory[0][0] = littleSword;
+    myInvotory.actualInvotory[5][7] = testItem;
 }
 
 
 void Update()
 {
-    
+    DrawTextEx(ft, TextFormat("Name : Short sword"), Vector2{ 975, 5 }, 20, 5, WHITE);
+    for (int x = 0; x < 18; x++)
+    {
+        for (int y = 0; y < 16; y++)
+        {
+            myInvotory.Update(x, y, ft);
+        }
+    }
 }
 
 void Draw()
@@ -71,6 +80,13 @@ void Draw()
         for (int y = 0; y < 16; y++)
         {
             myInvotory.Draw(x, y, ft);
+        }
+    }
+    for (int x = 0; x < 18; x++)
+    {
+        for (int y = 0; y < 16; y++)
+        {
+            myInvotory.Update(x, y, ft);
         }
     }
     //DrawTextEx(ft, TextFormat("Name : Short sword"), Vector2{ 975, 5 }, 20, 5, WHITE);

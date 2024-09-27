@@ -39,7 +39,25 @@ void Weapon::NewWeapon(std::string name, int stackable, int maxStackable, int we
 	itemDamage = damage;
 	itemAttackSpeed = attackSpeed;
 
-	itemSprite = LoadTexture("Icone/BG_Description.png");
+	
+}
+
+void Weapon::Update(int x, int y)
+{
+	DrawText(TextFormat("Name : ", itemName), 975, 5, 20, WHITE);
+	Rectangle rec{ (int)(50 * x), (int)(50 * y), 50, 50 };
+	if (CheckCollisionPointRec(GetMousePosition(), rec))
+	{
+		showInfo = true;
+		if (IsMouseButtonPressed(MOUSE_BUTTON_LEFT))
+		{
+			//effect
+		}
+	}
+	else
+	{
+		showInfo = false;
+	}
 }
 
 void Weapon::Draw(Font ft)
@@ -51,6 +69,6 @@ void Weapon::Draw(Font ft)
 	DrawTextEx(ft, TextFormat("Effect : ", itemEffectName), Vector2{ 975, 105 }, 20, 5, WHITE);
 	DrawTextEx(ft, TextFormat("Durability : %01i / %01i", itemDurability, itemMaxDurability), Vector2{ 975, 130 }, 20, 5, WHITE);
 	DrawTextEx(ft, TextFormat("Damage : %01i", itemDamage), Vector2{ 975, 155 }, 20, 5, WHITE);
-	DrawTextEx(ft, TextFormat("SpeedAttack : %01f", itemAttackSpeed), Vector2{ 975, 180 }, 20, 5, WHITE);
+	DrawTextEx(ft, TextFormat("SpeedAttack : %01.02f", itemAttackSpeed), Vector2{ 975, 180 }, 20, 5, WHITE);
 	//DrawTextEx(ft, TextFormat("Bricks : %02i", nbBrick), Vector2{ 5, 5 }, 50, 5, WHITE);
 }

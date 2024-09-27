@@ -21,6 +21,7 @@ private:
 	
 
 public:
+	bool showInfo = false;
 	string itemName = "Bob";
 	int maxItemStackable = 1;
 	int actualItemStackable = 1;
@@ -31,6 +32,8 @@ public:
 
 	Item();
 	Item(string name, int stackable, int maxStackable, int weight, int price, itemEffect effect);
+	void Start();
+	void Update(int x, int y);
 	void Draw(Font ft);
 	//virtual void Sell();
 };

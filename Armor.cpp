@@ -42,5 +42,5 @@ void Armor::Draw(Font ft)
 	DrawTextEx(ft, TextFormat("Effect : ", itemEffectName), Vector2{ 975, 105 }, 20, 5, WHITE);
 	DrawTextEx(ft, TextFormat("Durability : %01i / %01i", itemDurability, itemMaxDurability), Vector2{ 975, 130 }, 20, 5, WHITE);
 	DrawTextEx(ft, TextFormat("Protetion : %01i", armorProtection), Vector2{ 975, 155 }, 20, 5, WHITE);
-	DrawTextEx(ft, TextFormat("Armor slot : %01f", armoreTypeName), Vector2{ 975, 180 }, 20, 5, WHITE);
+	DrawTextEx(ft, TextFormat("Armor slot : %01.02f", armoreTypeName), Vector2{ 975, 180 }, 20, 5, WHITE);
 }
