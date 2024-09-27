@@ -11,8 +11,8 @@ public:
 
 	Equipement();
 	Equipement(string name, int stackable, int maxStackable, int weight, int price, itemEffect effect, int durability, int maxDurability);
-
-	virtual void Equip();
-	virtual void Unequip();
+	void Draw(Font ft);
+	//virtual void Equip();
+	//virtual void Unequip();
 };
 

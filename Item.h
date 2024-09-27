@@ -30,7 +30,8 @@ public:
 	string itemEffectName = "NoneEffect";
 
 	Item();
-
+	Item(string name, int stackable, int maxStackable, int weight, int price, itemEffect effect);
+	void Draw(Font ft);
 	//virtual void Sell();
 };
 

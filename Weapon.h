@@ -11,7 +11,8 @@ public:
 	float itemAttackSpeed = 1.0;
 
 	Weapon();
-	~Weapon();
+	//~Weapon();
 	void NewWeapon(string name, int stackable, int maxStackable, int weight, int price, itemEffect effect, int durability, int maxDurability, int damage, float attackSpeed);
+	void Draw(Font ft);
 };
 

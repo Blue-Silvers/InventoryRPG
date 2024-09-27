@@ -11,7 +11,7 @@ public:
 
 	Consumable();
 	Consumable(string name, int stackable, int maxStackable, int weight, int price, itemEffect effect, int heal);
-
-	virtual void Consum();
+	void Draw(Font ft);
+	//virtual void Consum();
 };
 

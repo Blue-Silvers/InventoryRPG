@@ -1,0 +1,10 @@
+﻿  Inventory.cpp
+C:\Users\enzo.lahana\Downloads\InvotoryRPG\InvotoryRPG\Inventory.cpp(14,26): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
+C:\Users\enzo.lahana\Downloads\InvotoryRPG\InvotoryRPG\Inventory.cpp(14,26): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\enzo.lahana\Downloads\InvotoryRPG\InvotoryRPG\Inventory.cpp(14,41): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
+C:\Users\enzo.lahana\Downloads\InvotoryRPG\InvotoryRPG\Inventory.cpp(14,41): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\enzo.lahana\Downloads\InvotoryRPG\InvotoryRPG\Inventory.cpp(31,26): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
+C:\Users\enzo.lahana\Downloads\InvotoryRPG\InvotoryRPG\Inventory.cpp(31,26): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\enzo.lahana\Downloads\InvotoryRPG\InvotoryRPG\Inventory.cpp(31,41): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
+C:\Users\enzo.lahana\Downloads\InvotoryRPG\InvotoryRPG\Inventory.cpp(31,41): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+  Raylib Starter Project.vcxproj -> C:\Users\enzo.lahana\Downloads\InvotoryRPG\InvotoryRPG\x64\Debug\Raylib Starter Project.exe
