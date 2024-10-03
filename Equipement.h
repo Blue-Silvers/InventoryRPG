@@ -11,7 +11,9 @@ public:
 
 	Equipement();
 	Equipement(string name, int stackable, int maxStackable, int weight, int price, itemEffect effect, int durability, int maxDurability);
-	void Draw(Font ft);
+	//void Draw(Font ft);
+
+	string GetItemStatistique() override;
 	//virtual void Equip();
 	//virtual void Unequip();
 };

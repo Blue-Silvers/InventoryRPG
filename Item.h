@@ -1,6 +1,7 @@
 #pragma once
 #include "raylib.h"
 #include <iostream>
+#include <sstream>
 using namespace std;
 
 	enum itemEffect
@@ -36,5 +37,7 @@ public:
 	void Update(int x, int y);
 	void Draw(Font ft);
 	//virtual void Sell();
+
+	virtual string GetItemStatistique() = 0;
 };
 

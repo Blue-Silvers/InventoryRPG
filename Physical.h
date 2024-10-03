@@ -10,7 +10,9 @@ public:
 
 
 	Physical();
-	void Draw(Font ft);
+	//void Draw(Font ft);
 	void NewPhysical(string name, int stackable, int maxStackable, int weight, int price, itemEffect effect, int durability, int maxDurability, int damage, float attackSpeed, int range);
+	string GetItemStatistique() override;
+
 };
 

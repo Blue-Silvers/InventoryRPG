@@ -11,7 +11,9 @@ public:
 
 	Consumable();
 	Consumable(string name, int stackable, int maxStackable, int weight, int price, itemEffect effect, int heal);
-	void Draw(Font ft);
+	//void Draw(Font ft);
+	string GetItemStatistique() override;
+
 	//virtual void Consum();
 };
 

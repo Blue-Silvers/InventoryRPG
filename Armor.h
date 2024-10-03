@@ -1,5 +1,6 @@
 #pragma once
 #include "Equipement.h"
+#include <sstream>
 
 enum armorSlot
 {
@@ -12,6 +13,8 @@ enum armorSlot
 class Armor : public Equipement
 {
 private:
+	enum armorSlot mArmorSlot;
+
 
 public:
 	int armorProtection = 1;
@@ -19,6 +22,9 @@ public:
 
 	Armor();
 	Armor(string name, int stackable, int maxStackable, int weight, int price, itemEffect effect, int durability, int maxDurability, int protection, armorSlot armorType);
-	void Draw(Font ft);
+	~Armor();
+	//void Draw(Font ft);
+
+	string GetItemStatistique() override;
 };
 

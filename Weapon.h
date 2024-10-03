@@ -16,6 +16,8 @@ public:
 	void Start();
 	void Update(int x, int y);
 	void NewWeapon(string name, int stackable, int maxStackable, int weight, int price, itemEffect effect, int durability, int maxDurability, int damage, float attackSpeed);
-	void Draw(Font ft);
+	//void Draw(Font ft);
+
+	string GetItemStatistique() override;
 };
 
