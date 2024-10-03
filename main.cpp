@@ -2,6 +2,7 @@
 #include "Weapon.h"
 #include "Inventory.h"
 #include "Item.h"
+#include "Magic.h"
 #include <iostream>
 
 using namespace std;
@@ -14,7 +15,7 @@ void End();
 Font ft;
 Inventory myInvotory = Inventory();
 Weapon* littleSword =new Weapon("Short Sword", 1, 1, 5, 10, itemEffect::NONE, 10, 20, 3, 1);
-Item* testItem = new Item("Item test", 1, 1, 5, 10, itemEffect::NONE);
+Magic* SpellOfVoid = new Magic("Spell of void", 2, 16, 1, 150, VOID, 5, 30);
 
 int main()
 {
@@ -50,9 +51,8 @@ void Start()
     }
     myInvotory.Start(1, 1);
     littleSword->Start();
-    testItem->Start();
     myInvotory.actualInvotory[0][0] = littleSword;
-    myInvotory.actualInvotory[5][7] = testItem;
+    myInvotory.actualInvotory[0][2] = SpellOfVoid;
 }
 
 

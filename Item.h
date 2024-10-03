@@ -29,7 +29,7 @@ public:
 	int itemWeight = 1;
 	int itemPrice = 1;
 	Texture2D itemSprite;
-	string itemEffectName = "NoneEffect";
+	itemEffect itemEffectName = NONE;
 
 	Item();
 	Item(string name, int stackable, int maxStackable, int weight, int price, itemEffect effect);

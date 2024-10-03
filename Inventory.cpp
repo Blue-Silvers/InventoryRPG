@@ -18,15 +18,20 @@ void Inventory::Update(int x, int y, Font ft)
 		showInfo = true;
 		if (actualInvotory[y][x] != nullptr)
 		{
-			actualInvotory[y][x]->showInfo = true;
-			actualInvotory[y][x]->Draw(ft);
+			//actualInvotory[y][x]->showInfo = true;
+			//actualInvotory[y][x]->Draw(ft);
+			DrawTextEx(ft, actualInvotory[y][x]->GetItemStatistique().c_str(), Vector2{ 975, 5 }, 20, 5, WHITE);
+			if (IsMouseButtonPressed(MOUSE_BUTTON_LEFT))
+			{
+				//effect
+			}
+			if (IsMouseButtonPressed(MOUSE_BUTTON_RIGHT))
+			{
+				money += actualInvotory[y][x]->itemPrice;
+				actualInvotory[y][x] = nullptr;
+			}
+		}
 
-			DrawTextEx(ft, TextFormat("Stack of : %01i / %01i", y, x), Vector2{ 975, 200 }, 20, 5, WHITE);
-		}
-		if (IsMouseButtonPressed(MOUSE_BUTTON_LEFT))
-		{
-			//effect
-		}
 	}
 	else 
 	{
@@ -58,5 +63,5 @@ void Inventory::Draw(int x, int y, Font ft)
 		//actualInvotory[y][x]->Draw(ft);
 	}
 
-
+	DrawTextEx(ft, TextFormat("Actual money : %01i ", money, "PO"), Vector2{975, 750}, 20, 5, YELLOW);
 }
