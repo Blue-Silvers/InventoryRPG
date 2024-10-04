@@ -10,7 +10,7 @@ class Inventory
 {
 private :
 	int money = 0;
-    int life = 75;
+    int life = 50;
     int maxLife = 100;
     int armorValue = 0;
     bool press = true;
@@ -32,7 +32,7 @@ public :
 
     Inventory();
 	void Draw(int x, int y, Font ft);
-	void Start(int x, int y);
+	void Start();
     void Update(int x, int y, Font ft);
 };
 

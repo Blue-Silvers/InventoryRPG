@@ -35,6 +35,11 @@ bool Staff::GetEquip()
 	return 0;
 }
 
+bool Staff::SetEquip()
+{
+	return 0;
+}
+
 int Staff::GetArmor()
 {
 	return 0;

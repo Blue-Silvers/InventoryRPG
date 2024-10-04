@@ -1,8 +1,6 @@
 #include "raylib.h"
-#include "Weapon.h"
 #include "Inventory.h"
-#include "Item.h"
-#include "Magic.h"
+#include "GameInit.h"
 #include <iostream>
 
 using namespace std;
@@ -13,15 +11,11 @@ void Draw();
 void End();
 
 Font ft;
+GameInit gameManage;
 Inventory myInvotory = Inventory();
-//Weapon* littleSword =new Weapon("Short Sword", 1, 1, 5, 10, itemEffect::NONE, 10, 20, 3, 1.5);
-//Magic* SpellOfVoid = new Magic("Spell of void", 2, 16, 1, 150, VOID, 5, 30);
 
 int main()
 {
-    
-
-    cout << "Hello World" << endl;
     Start();
 
     while (!WindowShouldClose())
@@ -42,10 +36,18 @@ void Start()
     SetTargetFPS(60);
     ft = LoadFont("resources/fonts/jupiter_crash.png");
 
-    myInvotory.Start(1, 1);
-    //littleSword->Start();
-    //myInvotory.actualInvotory[0][0] = littleSword;
-    //myInvotory.actualInvotory[0][2] = SpellOfVoid;
+    gameManage.Init(myInvotory);
+
+    myInvotory.Start();
+    myInvotory.actualInvotory[0][0] = gameManage.broadSword;
+    myInvotory.actualInvotory[0][1] = gameManage.cactusSword;
+    myInvotory.actualInvotory[0][2] = gameManage.meteorStrike;
+    myInvotory.actualInvotory[0][3] = gameManage.summonSatan;
+    myInvotory.actualInvotory[0][4] = gameManage.poseidonStaff;
+    myInvotory.actualInvotory[0][5] = gameManage.bread;
+    myInvotory.actualInvotory[0][6] = gameManage.honey;
+    myInvotory.actualInvotory[0][7] = gameManage.chainedChesplate;
+    myInvotory.actualInvotory[0][8] = gameManage.spartaHelmet;
 }
 
 

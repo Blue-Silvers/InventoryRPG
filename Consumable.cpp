@@ -32,6 +32,11 @@ bool Consumable::GetEquip()
 	return 0;
 }
 
+bool Consumable::SetEquip()
+{
+	return 0;
+}
+
 int Consumable::GetArmor()
 {
 	return 0;

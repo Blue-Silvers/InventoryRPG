@@ -136,6 +136,7 @@
     <ClCompile Include="Armor.cpp" />
     <ClCompile Include="Consumable.cpp" />
     <ClCompile Include="Equipement.cpp" />
+    <ClCompile Include="GameInit.cpp" />
     <ClCompile Include="Inventory.cpp" />
     <ClCompile Include="Item.cpp" />
     <ClCompile Include="Magic.cpp" />
@@ -148,6 +149,7 @@
     <ClInclude Include="Armor.h" />
     <ClInclude Include="Consumable.h" />
     <ClInclude Include="Equipement.h" />
+    <ClInclude Include="GameInit.h" />
     <ClInclude Include="Inventory.h" />
     <ClInclude Include="Item.h" />
     <ClInclude Include="Magic.h" />

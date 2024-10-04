@@ -51,6 +51,11 @@ int Armor::GetLearnSpeel()
 
 bool Armor::GetEquip()
 {
+	return mEquip;
+}
+
+bool Armor::SetEquip() 
+{
 	if (mEquip == true)
 	{
 		mEquip = false;
@@ -59,7 +64,7 @@ bool Armor::GetEquip()
 	{
 		mEquip = true;
 	}
-	return mEquip;
+	return true;
 }
 
 int Armor::GetArmor()

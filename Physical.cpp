@@ -35,6 +35,11 @@ bool Physical::GetEquip()
 	return 0;
 }
 
+bool Physical::SetEquip()
+{
+	return 0;
+}
+
 int Physical::GetArmor()
 {
 	return 0;

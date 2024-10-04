@@ -1,4 +1,10 @@
-﻿  Staff.cpp
-  Weapon.cpp
-  Génération de code en cours...
+﻿  Inventory.cpp
+C:\Users\fury8\OneDrive\Documents\GitHub\InventoryRPG\Inventory.cpp(15,27): warning C4838: la conversion de 'int' en 'float' requiert une conversion restrictive
+C:\Users\fury8\OneDrive\Documents\GitHub\InventoryRPG\Inventory.cpp(15,27): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+C:\Users\fury8\OneDrive\Documents\GitHub\InventoryRPG\Inventory.cpp(15,43): warning C4838: la conversion de 'int' en 'float' requiert une conversion restrictive
+C:\Users\fury8\OneDrive\Documents\GitHub\InventoryRPG\Inventory.cpp(15,43): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+C:\Users\fury8\OneDrive\Documents\GitHub\InventoryRPG\Inventory.cpp(94,27): warning C4838: la conversion de 'int' en 'float' requiert une conversion restrictive
+C:\Users\fury8\OneDrive\Documents\GitHub\InventoryRPG\Inventory.cpp(94,27): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+C:\Users\fury8\OneDrive\Documents\GitHub\InventoryRPG\Inventory.cpp(94,43): warning C4838: la conversion de 'int' en 'float' requiert une conversion restrictive
+C:\Users\fury8\OneDrive\Documents\GitHub\InventoryRPG\Inventory.cpp(94,43): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
   Raylib Starter Project.vcxproj -> C:\Users\fury8\OneDrive\Documents\GitHub\InventoryRPG\x64\Debug\Raylib Starter Project.exe

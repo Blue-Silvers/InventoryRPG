@@ -41,6 +41,11 @@ bool Weapon::GetEquip()
 	return 0;
 }
 
+bool Weapon::SetEquip()
+{
+	return 0;
+}
+
 int Weapon::GetArmor()
 {
 	return 0;

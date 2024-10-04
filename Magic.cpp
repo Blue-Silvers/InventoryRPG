@@ -33,6 +33,11 @@ bool Magic::GetEquip()
 	return 0;
 }
 
+bool Magic::SetEquip()
+{
+	return 0;
+}
+
 int Magic::GetArmor()
 {
 	return 0;

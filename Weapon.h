@@ -18,6 +18,7 @@ public:
 	int GetFood() override;
 	virtual int GetLearnSpeel() override;
 	virtual bool GetEquip() override;
+	virtual bool SetEquip() override;
 	virtual int GetArmor() override;
 };
 

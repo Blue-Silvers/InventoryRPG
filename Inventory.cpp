@@ -3,7 +3,7 @@ Inventory::Inventory()
 {
 
 }
-void Inventory::Start(int x, int y)
+void Inventory::Start()
 {
 	foreGround = LoadTexture("Icone/BG_Item.png");
 	backGround = LoadTexture("Icone/BG_Description.png");
@@ -27,6 +27,15 @@ void Inventory::Update(int x, int y, Font ft)
 					{
 						life = maxLife;
 					}
+					if (actualInvotory[y][x]->actualItemStackable > 1)
+					{
+						actualInvotory[y][x]->actualItemStackable -= 1;
+						use = false;
+					}
+					else
+					{
+						actualInvotory[y][x] = nullptr;
+					}
 				}
 				else if (actualInvotory[y][x]->GetLearnSpeel() != 0)
 				{
@@ -42,7 +51,7 @@ void Inventory::Update(int x, int y, Font ft)
 				}
 				else if (actualInvotory[y][x]->GetArmor() != 0 )
 				{
-					// equipe
+					actualInvotory[y][x]->SetEquip();
 					if (actualInvotory[y][x]->GetEquip() == true)
 					{
 						armorValue += actualInvotory[y][x]->GetArmor();
@@ -51,7 +60,7 @@ void Inventory::Update(int x, int y, Font ft)
 					{
 						armorValue -= actualInvotory[y][x]->GetArmor();
 					}
-					
+					use = false;
 				}
 			}
 			if (IsMouseButtonReleased(MOUSE_BUTTON_LEFT) && use == false)
@@ -104,15 +113,16 @@ void Inventory::Draw(int x, int y, Font ft)
 			}
 			else if (actualInvotory[y][x]->GetLearnSpeel() != 0)
 			{
-				DrawTextEx(ft, "Left click for learn spell", Vector2{ 925, 475 }, 25, 5, YELLOW);
-			}
-			else if (actualInvotory[y][x]->GetArmor() != 0 && actualInvotory[y][x]->GetEquip() == true)
-			{
-				DrawTextEx(ft, "Left click for equip", Vector2{ 925, 475 }, 25, 5, YELLOW);
+				DrawTextEx(ft, "Left click for", Vector2{ 925, 450 }, 25, 5, YELLOW);
+				DrawTextEx(ft, "learn spell", Vector2{ 925, 475 }, 25, 5, YELLOW);
 			}
 			else if (actualInvotory[y][x]->GetArmor() != 0 && actualInvotory[y][x]->GetEquip() == false)
 			{
-				DrawTextEx(ft, "Left click for unequipe", Vector2{ 925, 475 }, 25, 5, YELLOW);
+				DrawTextEx(ft, "Left click for equip", Vector2{ 925, 475 }, 25, 5, YELLOW);
+			}
+			else if (actualInvotory[y][x]->GetArmor() != 0 && actualInvotory[y][x]->GetEquip() == true)
+			{
+				DrawTextEx(ft, "Left click for unequip", Vector2{ 925, 475 }, 25, 5, YELLOW);
 			}
 			DrawTextEx(ft, "Right click for sell", Vector2{ 925, 500 }, 25, 5, YELLOW);
 		}
@@ -120,7 +130,7 @@ void Inventory::Draw(int x, int y, Font ft)
 
 	if (actualInvotory[y][x] != nullptr) 
 	{
-		DrawTexturePro(actualInvotory[y][x]->itemSprite, Rectangle{0, 0, 128, 128}, rec, origin, 0.0f, WHITE);
+		DrawTexturePro(actualInvotory[y][x]->itemSprite, Rectangle{0, 0, 400, 400}, rec, origin, 0.0f, WHITE);
 	}
 
 	DrawTextEx(ft, TextFormat("Armor : %01i ", armorValue), Vector2{ 925, 700 }, 25, 5, LIGHTGRAY);
