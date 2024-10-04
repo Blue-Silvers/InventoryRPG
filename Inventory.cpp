@@ -5,8 +5,8 @@ Inventory::Inventory()
 }
 void Inventory::Start()
 {
-	foreGround = LoadTexture("Icone/BG_Item.png");
-	backGround = LoadTexture("Icone/BG_Description.png");
+	foreGround = LoadTexture("resources/Icone/BG_Item.png");
+	backGround = LoadTexture("resources/Icone/BG_Description.png");
 }
 
 void Inventory::Update(int x, int y, Font ft)
