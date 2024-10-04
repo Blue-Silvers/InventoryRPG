@@ -14,8 +14,8 @@ void End();
 
 Font ft;
 Inventory myInvotory = Inventory();
-Weapon* littleSword =new Weapon("Short Sword", 1, 1, 5, 10, itemEffect::NONE, 10, 20, 3, 1);
-Magic* SpellOfVoid = new Magic("Spell of void", 2, 16, 1, 150, VOID, 5, 30);
+//Weapon* littleSword =new Weapon("Short Sword", 1, 1, 5, 10, itemEffect::NONE, 10, 20, 3, 1.5);
+//Magic* SpellOfVoid = new Magic("Spell of void", 2, 16, 1, 150, VOID, 5, 30);
 
 int main()
 {
@@ -41,27 +41,20 @@ void Start()
     InitWindow(1200, 800, "Inventory RPG");
     SetTargetFPS(60);
     ft = LoadFont("resources/fonts/jupiter_crash.png");
-    //littleSword.NewWeapon("Short Sword", 1, 1, 5, 10, itemEffect::NONE, 10, 20, 3, 1);
-    for (int x = 0; x < 24; x++)
-    {
-        for (int y = 0; y < 16; y++)
-        {
-            //myInvotory.actualInvotory[x][y].Start(x, y);
-        }
-    }
+
     myInvotory.Start(1, 1);
-    littleSword->Start();
-    myInvotory.actualInvotory[0][0] = littleSword;
-    myInvotory.actualInvotory[0][2] = SpellOfVoid;
+    //littleSword->Start();
+    //myInvotory.actualInvotory[0][0] = littleSword;
+    //myInvotory.actualInvotory[0][2] = SpellOfVoid;
 }
 
 
 void Update()
 {
-    DrawTextEx(ft, TextFormat("Name : Short sword"), Vector2{ 975, 5 }, 20, 5, WHITE);
-    for (int x = 0; x < 18; x++)
+    
+    for (int x = 0; x < 9; x++)
     {
-        for (int y = 0; y < 16; y++)
+        for (int y = 0; y < 8; y++)
         {
             myInvotory.Update(x, y, ft);
         }
@@ -72,32 +65,23 @@ void Draw()
 {
     BeginDrawing();
 
-    ClearBackground(DARKGREEN);
+    ClearBackground(DARKBROWN);
 
 
-    for (int x = 0; x < 24; x++)
+    for (int x = 0; x < 9; x++)
     {
-        for (int y = 0; y < 16; y++)
+        for (int y = 0; y < 8; y++)
         {
             myInvotory.Draw(x, y, ft);
         }
     }
-    for (int x = 0; x < 18; x++)
+    for (int x = 0; x < 9; x++)
     {
-        for (int y = 0; y < 16; y++)
+        for (int y = 0; y < 8; y++)
         {
             myInvotory.Update(x, y, ft);
         }
     }
-    //DrawTextEx(ft, TextFormat("Name : Short sword"), Vector2{ 975, 5 }, 20, 5, WHITE);
-    //DrawTextEx(ft, TextFormat("Stack of : %01i / %01i", 1, 1), Vector2{ 975, 30 }, 20, 5, WHITE);
-    //DrawTextEx(ft, TextFormat("Weight : %01i kg", 20), Vector2{ 975, 55 }, 20, 5, WHITE);
-    //DrawTextEx(ft, TextFormat("Price : %01i PO", 5), Vector2{ 975, 80 }, 20, 5, WHITE);
-    //DrawTextEx(ft, TextFormat("Effect : ", VOID), Vector2{ 975, 105 }, 20, 5, WHITE);
-    //DrawTextEx(ft, TextFormat("Durability : %01i / %01i", 100, 150), Vector2{ 975, 130 }, 20, 5, WHITE);
-    //DrawTextEx(ft, TextFormat("Damage : %01i", 5), Vector2{ 975, 155 }, 20, 5, WHITE);
-    //DrawTextEx(ft, TextFormat("SpeedAttack : %01f", 1.5), Vector2{ 975, 180 }, 20, 5, WHITE);
-    //DrawTextEx(ft, TextFormat("Mana : %01i", 50), Vector2{ 975, 205 }, 20, 5, WHITE);
     EndDrawing();
 }
 

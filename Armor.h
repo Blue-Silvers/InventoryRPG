@@ -14,17 +14,20 @@ class Armor : public Equipement
 {
 private:
 	enum armorSlot mArmorSlot;
-
+	bool mEquip = false;
 
 public:
 	int armorProtection = 1;
 	string armoreTypeName = "None";
 
 	Armor();
-	Armor(string name, int stackable, int maxStackable, int weight, int price, itemEffect effect, int durability, int maxDurability, int protection, armorSlot armorType);
+	Armor(string name, int stackable, int maxStackable, int weight, int price, itemEffect effect, int durability, int maxDurability, int protection, armorSlot armorType, Texture2D newItemSprite);
 	~Armor();
-	//void Draw(Font ft);
 
 	string GetItemStatistique() override;
+	int GetFood() override;
+	virtual int GetLearnSpeel() override;
+	virtual bool GetEquip() override;
+	virtual int GetArmor() override;
 };
 

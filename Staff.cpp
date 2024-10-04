@@ -4,7 +4,7 @@ Staff::Staff()
 
 }
 
-void Staff::NewStaff(std::string name, int stackable, int maxStackable, int weight, int price, itemEffect effect, int durability, int maxDurability, int damage, float attackSpeed, int maxMana)
+Staff::Staff(std::string name, int stackable, int maxStackable, int weight, int price, itemEffect effect, int durability, int maxDurability, int damage, float attackSpeed, int maxMana, Texture2D newItemSprite)
 {
 	itemName = name;
 	actualItemStackable = stackable;
@@ -17,6 +17,27 @@ void Staff::NewStaff(std::string name, int stackable, int maxStackable, int weig
 	itemDamage = damage;
 	itemAttackSpeed = attackSpeed;
 	itemMaxMana = maxMana;
+	itemSprite = newItemSprite;
+}
+
+int Staff::GetFood()
+{
+	return 0;
+}
+
+int Staff::GetLearnSpeel()
+{
+	return 0;
+}
+
+bool Staff::GetEquip()
+{
+	return 0;
+}
+
+int Staff::GetArmor()
+{
+	return 0;
 }
 
 string Staff::GetItemStatistique()

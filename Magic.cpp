@@ -5,7 +5,7 @@ Magic::Magic()
 
 }
 
-Magic::Magic (std::string name, int stackable, int maxStackable, int weight, int price, itemEffect effect, int level, int duration)
+Magic::Magic (std::string name, int stackable, int maxStackable, int weight, int price, itemEffect effect, int level, int duration, Texture2D newItemSprite)
 {
 	itemName = name;
 	actualItemStackable = stackable;
@@ -15,6 +15,27 @@ Magic::Magic (std::string name, int stackable, int maxStackable, int weight, int
 	itemEffectName = effect;
 	spellLevel = level;
 	spellDuration = duration;
+	itemSprite = newItemSprite;
+}
+
+int Magic::GetFood()
+{
+	return 0;
+}
+
+int Magic::GetLearnSpeel()
+{
+	return spellLevel;
+}
+
+bool Magic::GetEquip()
+{
+	return 0;
+}
+
+int Magic::GetArmor()
+{
+	return 0;
 }
 
 string Magic::GetItemStatistique()

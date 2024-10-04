@@ -4,7 +4,7 @@ Physical::Physical()
 
 }
 
-void Physical::NewPhysical(std::string name, int stackable, int maxStackable, int weight, int price, itemEffect effect, int durability, int maxDurability, int damage, float attackSpeed, int range)
+Physical::Physical(std::string name, int stackable, int maxStackable, int weight, int price, itemEffect effect, int durability, int maxDurability, int damage, float attackSpeed, int range, Texture2D newItemSprite)
 {
 	itemName = name;
 	actualItemStackable = stackable;
@@ -17,6 +17,27 @@ void Physical::NewPhysical(std::string name, int stackable, int maxStackable, in
 	itemDamage = damage;
 	itemAttackSpeed = attackSpeed;
 	itemRange = range;
+	itemSprite = newItemSprite;
+}
+
+int Physical::GetFood()
+{
+	return 0;
+}
+
+int Physical::GetLearnSpeel()
+{
+	return 0;
+}
+
+bool Physical::GetEquip()
+{
+	return 0;
+}
+
+int Physical::GetArmor()
+{
+	return 0;
 }
 
 string Physical::GetItemStatistique()

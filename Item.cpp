@@ -6,7 +6,7 @@ Item::Item()
 
 }
 
-Item::Item(string name, int stackable, int maxStackable, int weight, int price, itemEffect effect) 
+Item::Item(string name, int stackable, int maxStackable, int weight, int price, itemEffect effect, Texture2D newItemSprite)
 {
 	itemName = name;
 	actualItemStackable = stackable;
@@ -14,6 +14,7 @@ Item::Item(string name, int stackable, int maxStackable, int weight, int price, 
 	itemWeight = weight;
 	itemPrice = price;
 	itemEffectName = effect;
+	itemSprite = newItemSprite;
 }
 
 void Item::Start() 

@@ -10,9 +10,13 @@ public:
 	int spellLevel = 1;
 
 	Magic();
-	Magic(string name, int stackable, int maxStackable, int weight, int price, itemEffect effect, int level, int duration);
-	//void Draw(Font ft);
+	Magic(string name, int stackable, int maxStackable, int weight, int price, itemEffect effect, int level, int duration, Texture2D newItemSprite);
+
 	string GetItemStatistique() override;
+	int GetFood() override;
+	virtual int GetLearnSpeel() override;
+	virtual bool GetEquip() override;
+	virtual int GetArmor() override;
 
 };
 

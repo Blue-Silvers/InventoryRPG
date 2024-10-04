@@ -11,13 +11,13 @@ public:
 	float itemAttackSpeed = 1.0;
 
 	Weapon();
-	Weapon(string name, int stackable, int maxStackable, int weight, int price, itemEffect effect, int durability, int maxDurability, int damage, float attackSpeed);
-	//~Weapon();
+	Weapon(string name, int stackable, int maxStackable, int weight, int price, itemEffect effect, int durability, int maxDurability, int damage, float attackSpeed, Texture2D itemSprite);
 	void Start();
-	void Update(int x, int y);
-	void NewWeapon(string name, int stackable, int maxStackable, int weight, int price, itemEffect effect, int durability, int maxDurability, int damage, float attackSpeed);
-	//void Draw(Font ft);
 
 	string GetItemStatistique() override;
+	int GetFood() override;
+	virtual int GetLearnSpeel() override;
+	virtual bool GetEquip() override;
+	virtual int GetArmor() override;
 };
 

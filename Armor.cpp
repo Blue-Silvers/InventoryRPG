@@ -5,7 +5,7 @@ Armor::Armor()
 
 }
 
-Armor::Armor(std::string name, int stackable, int maxStackable, int weight, int price, itemEffect effect, int durability, int maxDurability, int protection, armorSlot armorType)
+Armor::Armor(std::string name, int stackable, int maxStackable, int weight, int price, itemEffect effect, int durability, int maxDurability, int protection, armorSlot armorType, Texture2D newItemSprite)
 {
 	itemName = name;
 	actualItemStackable = stackable;
@@ -32,10 +32,39 @@ Armor::Armor(std::string name, int stackable, int maxStackable, int weight, int 
 	{
 		armoreTypeName = "Boots";
 	}
+	itemSprite = newItemSprite;
 }
 
 Armor::~Armor()
 {
+}
+
+int Armor::GetFood()
+{
+	return 0;
+}
+
+int Armor::GetLearnSpeel()
+{
+	return 0;
+}
+
+bool Armor::GetEquip()
+{
+	if (mEquip == true)
+	{
+		mEquip = false;
+	}
+	else 
+	{
+		mEquip = true;
+	}
+	return mEquip;
+}
+
+int Armor::GetArmor()
+{
+	return armorProtection;
 }
 
 string Armor::GetItemStatistique()

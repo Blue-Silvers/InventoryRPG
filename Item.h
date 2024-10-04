@@ -32,12 +32,16 @@ public:
 	itemEffect itemEffectName = NONE;
 
 	Item();
-	Item(string name, int stackable, int maxStackable, int weight, int price, itemEffect effect);
+	Item(string name, int stackable, int maxStackable, int weight, int price, itemEffect effect, Texture2D newItemSprite);
 	void Start();
 	void Update(int x, int y);
 	void Draw(Font ft);
 	//virtual void Sell();
 
 	virtual string GetItemStatistique() = 0;
+	virtual int GetFood() = 0;
+	virtual int GetLearnSpeel() = 0;
+	virtual bool GetEquip() = 0;
+	virtual int GetArmor() = 0;
 };
 

@@ -10,11 +10,12 @@ public:
 	int itemMaxDurability = 1;
 
 	Equipement();
-	Equipement(string name, int stackable, int maxStackable, int weight, int price, itemEffect effect, int durability, int maxDurability);
-	//void Draw(Font ft);
+	Equipement(string name, int stackable, int maxStackable, int weight, int price, itemEffect effect, int durability, int maxDurability, Texture2D newItemSprite);
 
 	string GetItemStatistique() override;
-	//virtual void Equip();
-	//virtual void Unequip();
+	int GetFood() override;
+	virtual int GetLearnSpeel() override;
+	virtual bool GetEquip() override;
+	virtual int GetArmor() override;
 };
 

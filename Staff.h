@@ -10,10 +10,12 @@ public:
 
 
 	Staff();
-	void NewStaff(string name, int stackable, int maxStackable, int weight, int price, itemEffect effect, int durability, int maxDurability, int damage, float attackSpeed, int maxMana);
-	//void Draw(Font ft);
+	Staff(string name, int stackable, int maxStackable, int weight, int price, itemEffect effect, int durability, int maxDurability, int damage, float attackSpeed, int maxMana,Texture2D newItemSprite);
 
 	string GetItemStatistique() override;
-	//void ChooseMagic();
+	int GetFood() override;
+	virtual int GetLearnSpeel() override;
+	virtual bool GetEquip() override;
+	virtual int GetArmor() override;
 };
 
